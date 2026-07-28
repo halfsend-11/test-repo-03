@@ -22,6 +22,8 @@ agents:
       enabled: false
     - name: fork-pr-sync
       source: harness/fork-pr-sync.yaml
+    - name: pr-ping
+      source: harness/pr-ping.yaml
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
